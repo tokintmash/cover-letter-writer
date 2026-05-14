@@ -1,4 +1,4 @@
-# Cover Letter Agent
+# Cover Letter Writer
 
 Reusable Codex and Claude workflow for drafting tailored cover letters.
 

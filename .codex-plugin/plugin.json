@@ -9,7 +9,7 @@
   "license": "MIT",
   "skills": "./skills/",
   "interface": {
-    "displayName": "Cover Letter Agent",
+    "displayName": "Cover Letter Writer",
     "shortDescription": "Draft tailored cover letters",
     "developerName": "Miikael Volkonski",
     "category": "Writing",
