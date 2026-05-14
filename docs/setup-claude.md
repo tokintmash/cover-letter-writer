@@ -24,7 +24,7 @@ This plugin intentionally does not bundle a copied humanizer skill. Claude shoul
 Use the plugin namespace when available:
 
 ```text
-/cover-letter-agent:cover-letter-writer
+/cover-letter-writer:cover-letter-writer
 ```
 
 Use the upstream humanizer skill for the final polish pass:

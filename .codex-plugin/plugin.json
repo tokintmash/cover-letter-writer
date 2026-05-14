@@ -1,11 +1,11 @@
 {
-  "name": "cover-letter-agent",
+  "name": "cover-letter-writer",
   "version": "0.1.0",
   "description": "Reusable skill for drafting tailored cover letters. Use a separate humanizer skill for final polish when desired.",
   "author": {
     "name": "Miikael Volkonski"
   },
-  "repository": "https://github.com/your-name/cover-letter-agent",
+  "repository": "https://github.com/your-name/cover-letter-writer",
   "license": "MIT",
   "skills": "./skills/",
   "interface": {

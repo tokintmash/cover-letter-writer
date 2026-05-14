@@ -100,8 +100,8 @@ Use $humanizer to rewrite this draft without changing its facts.
 Clone this repository:
 
 ```bash
-git clone https://github.com/your-name/cover-letter-agent.git
-cd cover-letter-agent
+git clone https://github.com/your-name/cover-letter-writer.git
+cd cover-letter-writer
 ```
 
 Load it as a Claude plugin using your local plugin workflow, for example:
@@ -124,7 +124,7 @@ Restart or reload Claude after installing new plugins or skills.
 Use the plugin namespace for drafting:
 
 ```text
-/cover-letter-agent:cover-letter-writer
+/cover-letter-writer:cover-letter-writer
 ```
 
 Use the upstream humanizer for the polish pass:
