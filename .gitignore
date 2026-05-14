@@ -1,0 +1,26 @@
+# Local working data
+private/
+workspace/
+
+# Runtime documents
+/ads/
+/cv/
+/recommendations/
+/output/
+
+# Private application workspace contents
+my-applications/ads/*
+my-applications/cv/*
+my-applications/examples/*
+my-applications/recommendations/*
+my-applications/output/*
+!my-applications/ads/*.template.md
+!my-applications/cv/*.template.md
+!my-applications/examples/*.template.md
+!my-applications/recommendations/*.template.md
+
+# Editor and OS noise
+.DS_Store
+
+#planning
+PLUGIN-SKILL-REPO-PLAN.md
