@@ -10,6 +10,8 @@ This repository contains public workflow logic, templates, and sanitized example
 - Plugin metadata for Codex and Claude.
 - Starter templates for private CV, recommendation, and job ad source files.
 
+The writer researches the company before drafting, including values, culture, product or service, customer segment, and role context. It then maps those signals to the user's CV and personal data so the cover letter brings out real overlap rather than generic enthusiasm.
+
 For a dedicated humanization pass, install the upstream `humanizer` skill separately from:
 
 ```text
@@ -52,8 +54,8 @@ The writer skill will use the referenced ad file, then look for supporting sourc
 Clone this repository:
 
 ```bash
-git clone https://github.com/your-name/cover-letter-agent.git
-cd cover-letter-agent
+git clone https://github.com/your-name/cover-letter-writer.git
+cd cover-letter-writer
 ```
 
 Install the writer skill by copying or symlinking it into Codex's skills directory:

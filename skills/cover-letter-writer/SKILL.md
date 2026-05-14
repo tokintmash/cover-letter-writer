@@ -1,6 +1,6 @@
 ---
 name: cover-letter-writer
-description: Use when drafting a tailored cover letter for a specific job ad file, such as "Write a cover letter for @ads/company-role.md", using the active workspace's `cv/`, `recommendations/`, and optional `examples/` folders while enforcing fact-only writing, role-appropriate framing, company-aware tailoring, and concise human tone. For a separate humanization pass, use the installed `humanizer` skill from https://github.com/blader/humanizer when available.
+description: Use when drafting a tailored cover letter for a specific job ad file, such as "Write a cover letter for @ads/company-role.md", using the active workspace's `cv/`, `recommendations/`, and optional `examples/` folders. Requires company research into values, culture, product, and role context, then maps those signals to the user's CV and personal data before drafting. For a separate humanization pass, use the installed `humanizer` skill from https://github.com/blader/humanizer when available.
 ---
 
 # Cover Letter Writer
@@ -29,26 +29,30 @@ If the job ad or CV source cannot be discovered, ask for the missing material be
 
 1. Never invent facts.
 2. Use only claims supported by the CV, prior examples, recommendation material, or the user's prompt.
-3. Write in the same language as the job ad unless the user asks otherwise.
-4. Match the user's prior examples for tone, density, and approximate length.
-5. Tailor the letter to the role instead of reusing a generic structure.
-6. For specialist or individual-contributor roles, do not over-emphasize leadership unless the ad explicitly asks for it.
-7. Use optional CV sections only when they strengthen fit for this specific role.
-8. Treat recommendation letters as silent corroboration. Do not quote them or mention them directly unless the user asks.
-9. Avoid em dashes, inflated praise, empty enthusiasm, and generic AI-sounding transitions.
+3. Research the company before drafting unless the user explicitly says not to.
+4. Identify overlaps between company signals and the user's CV, personal information, examples, and recommendation-backed traits.
+5. Bring the strongest overlaps into the letter naturally and specifically.
+6. Write in the same language as the job ad unless the user asks otherwise.
+7. Match the user's prior examples for tone, density, and approximate length.
+8. Tailor the letter to the role instead of reusing a generic structure.
+9. For specialist or individual-contributor roles, do not over-emphasize leadership unless the ad explicitly asks for it.
+10. Use optional CV sections only when they strengthen fit for this specific role.
+11. Treat recommendation letters as silent corroboration. Do not quote them or mention them directly unless the user asks.
+12. Avoid em dashes, inflated praise, empty enthusiasm, and generic AI-sounding transitions.
 
 ## Drafting Workflow
 
 1. Read the ad file the user referenced.
 2. Read project-local instructions and source material from `cv/`, `recommendations/`, and `examples/` when present.
 3. Identify the ad's language, priorities, seniority, and required evidence.
-4. Research the company if current context or the user request calls for company-specific alignment.
-5. Select the strongest fact-backed overlaps between the role and the user's background.
-6. Draft a raw version that is concrete, concise, and role-specific.
-7. Save the raw draft when the active project uses `output/raw/`.
-8. Humanize the draft directly or invoke the installed upstream `humanizer` skill for a separate polishing pass when it is available.
-9. Save the final version when the active project uses `output/final/`.
-10. Run a final compliance pass for unsupported claims, wrong language, over-selling, em dashes, and private data leaks.
+4. Research the company, including values, culture, product or service, customer segment, and role context.
+5. Map company signals against the user's CV, personal information, examples, and recommendation-backed traits.
+6. Select the strongest fact-backed overlaps between the role, company context, and the user's background.
+7. Draft a raw version that is concrete, concise, company-aware, and role-specific.
+8. Save the raw draft when the active project uses `output/raw/`.
+9. Humanize the draft directly or invoke the installed upstream `humanizer` skill for a separate polishing pass when it is available.
+10. Save the final version when the active project uses `output/final/`.
+11. Run a final compliance pass for unsupported claims, wrong language, over-selling, em dashes, and private data leaks.
 
 ## Output Standard
 

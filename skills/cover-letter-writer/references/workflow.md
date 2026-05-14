@@ -6,10 +6,12 @@
 2. Read the specific ad file the user referenced, such as `@ads/company-role.md`.
 3. Read the CV and personal information in `cv/`, prior examples in `examples/`, and recommendation material in `recommendations/` when present.
 4. Identify role priorities, required evidence, language, and likely seniority.
-5. Select only the strongest fact-backed overlaps.
-6. Draft a raw letter in the ad's language.
-7. Humanize the draft while preserving facts.
-8. Save outputs according to project conventions when requested or clearly expected.
+5. Research the company values, culture, product or service, customer segment, and role context.
+6. Map those company signals to the user's CV, personal information, examples, and recommendation-backed traits.
+7. Select only the strongest fact-backed overlaps.
+8. Draft a raw letter in the ad's language.
+9. Humanize the draft while preserving facts.
+10. Save outputs according to project conventions when requested or clearly expected.
 
 ## Raw and Final Outputs
 
