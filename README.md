@@ -2,8 +2,6 @@
 
 A skill for Codex and Claude for drafting cover letters.
 
-The agent reads your provided personal information and the job ad. It researhes the company and writes a cover letter draft based on the overlaps (skills, values etc). You can provide it with examples of good cover letters that you have and it will try to match the style and structure of those.
-
 ## What This Repo Provides
 
 - `cover-letter-writer`: drafts fact-based cover letters from a job ad, CV, prior examples, and optional recommendation material.
