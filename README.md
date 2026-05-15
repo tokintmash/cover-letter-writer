@@ -1,10 +1,10 @@
 # Cover Letter Writer
 
-Reusable Codex and Claude workflow for drafting tailored cover letters.
+A skill for Codex and Claude for drafting cover letters.
 
-This repository contains public workflow logic, templates, and sanitized examples only. It does not include real CVs, recommendation letters, job ads, generated cover letters, or identifying personal data.
+The agent reads your provided personal information and the job ad. It researhes the company and writes a cover letter draft based on the overlaps (skills, values etc). You can provide it with examples of good cover letters that you have and it will try to match the style and structure of those.
 
-## What This Provides
+## What This Repo Provides
 
 - `cover-letter-writer`: drafts fact-based cover letters from a job ad, CV, prior examples, and optional recommendation material.
 - Plugin metadata for Codex and Claude.
@@ -35,16 +35,16 @@ my-applications/
 
 Fill it like this:
 
-1. Add your CV and personal information to `cv/`.
-2. Paste recommendation letters into Markdown files in `recommendations/`.
-3. Add prior cover letter examples to `examples/`, if you have them.
-4. Create a new Markdown file in `ads/` for each job and paste the full ad contents into it.
+1. Add your CV and personal information to `my-applications/cv/`.
+2. Paste recommendation letters into Markdown files in `my-applications/recommendations/`.
+3. Add prior cover letter examples to `my-applications/examples/`, if you have them.
+4. Create a new Markdown file in `my-applications/ads/` for each job and paste the full ad contents into it.
 5. Ask the agent to write a letter for that ad file.
 
 Example:
 
 ```text
-Write a cover letter for @ads/company-role.md
+Write a cover letter for @my-applications/ads/<ad-file>.md
 ```
 
 The writer skill will use the referenced ad file, then look for supporting source material in sibling folders such as `cv/`, `recommendations/`, `examples/`, and `output/`.

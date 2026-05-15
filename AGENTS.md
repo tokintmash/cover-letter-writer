@@ -4,8 +4,6 @@
 
 Maintain a public, reusable cover-letter plugin and skill package. The repository should contain workflow logic, sanitized starter files, and setup documentation only.
 
-Do not add real CVs, recommendation letters, job ads, generated cover letters, or identifying personal information to this repository.
-
 ## Project Shape
 
 - `skills/cover-letter-writer/` - the bundled writer skill
