@@ -1,0 +1,10 @@
+{
+  "name": "cover-letter-writer",
+  "description": "Reusable skill for drafting tailored cover letters. Use https://github.com/blader/humanizer separately for humanization.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Miikael Volkonski"
+  },
+  "repository": "https://github.com/your-name/cover-letter-writer",
+  "license": "MIT"
+}

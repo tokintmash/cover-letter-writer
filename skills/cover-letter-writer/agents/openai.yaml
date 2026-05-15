@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cover Letter Writer"
+  short_description: "Draft fact-based tailored cover letters"
+  default_prompt: "Use $cover-letter-writer to draft a cover letter from my CV, examples, recommendations, and a job ad."
